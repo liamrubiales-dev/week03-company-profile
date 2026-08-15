@@ -21,6 +21,7 @@ MVC stands for Model-View-Controller. It organizes an application into three res
 Laravel uses MVC because it separates concerns: the logic for handling a request lives in one place (the controller), the presentation lives in another (the views), and the two do not need to know the details of how the other works.
 
 Request flow: Browser -> Route (web.php) -> CompanyController -> Blade View -> HTML Response -> Browser.
+ ![Architecture Diagram](documentation/architecture-diagram.png)
 
 ## Laravel Routing
 Routing is how Laravel maps a URL the browser requests to the code that should handle it. Each route in routes/web.php matches a URL path to a controller method, using GET requests since the browser is retrieving pages, not submitting data. Each route is also named, which lets Blade views reference routes by name instead of hardcoding URLs.
