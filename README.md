@@ -40,7 +40,7 @@ Blade is Laravel templating engine. It lets views share a common layout instead 
 - config: Application configuration files (database, mail, services, etc.)
 
 ## Screenshots
-(Screenshots to be added here)
+![Home Page](screenshots/home.jpg) ![About Page](screenshots/about.jpg) ![Services Page](screenshots/services.jpg) ![Contact Page](screenshots/contact.jpg) ![Navigation Bar](screenshots/navbar.jpg) ![Footer](screenshots/footer.jpg) ![Route Definitions](screenshots/routes.jpg) ![Controller](screenshots/controller.jpg) ![Blade Layout](screenshots/layout.jpg) ![Folder Structure](screenshots/folder-structure.jpg)
 
 ## Problems Encountered
 1. Layout file being overwritten unexpectedly - a different version of the layout file with a Vite directive ended up in the layouts folder, causing a ViteManifestNotFoundException since this project uses the Tailwind CDN, not a compiled Vite build.
